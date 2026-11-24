@@ -1,0 +1,4303 @@
+{
+  "n": 48,
+  "summary": {
+    "boundary": {
+      "hit_1": 0.625,
+      "hit_3": 0.8125,
+      "mrr": 0.7118055555555557,
+      "precision_at3": 0.40277777777777785
+    },
+    "fusion": {
+      "hit_1": 0.6666666666666666,
+      "hit_3": 0.875,
+      "mrr": 0.7604166666666666,
+      "precision_at3": 0.4166666666666666
+    },
+    "low_relevance": {
+      "hit_1": 0.0,
+      "hit_3": 0.020833333333333332,
+      "mrr": 0.010416666666666666,
+      "precision_at3": 0.006944444444444444
+    }
+  },
+  "rows": [
+    {
+      "id": "V5F01-1",
+      "reference_cards": [
+        "KB01",
+        "KB26"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB26",
+            "score": 0.733826
+          },
+          {
+            "id": "KB01",
+            "score": 0.690634
+          },
+          {
+            "id": "KB40",
+            "score": 0.530016
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB26",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB01",
+            "score": 0.0483871,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB40",
+            "score": 0.0466714,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 3,
+              "bm25": 7
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB38",
+            "score": 0.385826,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB15",
+            "score": 0.376278,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB13",
+            "score": 0.356039,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F01-2",
+      "reference_cards": [
+        "KB01",
+        "KB09",
+        "KB26"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB01",
+            "score": 0.760572
+          },
+          {
+            "id": "KB24",
+            "score": 0.595528
+          },
+          {
+            "id": "KB02",
+            "score": 0.546334
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB01",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB24",
+            "score": 0.0483871,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB02",
+            "score": 0.04737103,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 3,
+              "bm25": 4
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB21",
+            "score": 0.473416,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB15",
+            "score": 0.462859,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB12",
+            "score": 0.41642,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F01-3",
+      "reference_cards": [
+        "KB04",
+        "KB29",
+        "KB42"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.667672
+          },
+          {
+            "id": "KB30",
+            "score": 0.63394
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.04865151,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 1,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB26",
+            "score": 0.04663462,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 5,
+              "expanded": 4,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB18",
+            "score": 0.04593499,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 5,
+              "bm25": 7
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB17",
+            "score": 0.441344,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB14",
+            "score": 0.428228,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.422413,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F01-4",
+      "reference_cards": [
+        "KB05",
+        "KB15",
+        "KB20"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB05",
+            "score": 0.6342
+          },
+          {
+            "id": "KB26",
+            "score": 0.585398
+          },
+          {
+            "id": "KB43",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB26",
+            "score": 0.0483871,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB20",
+            "score": 0.04712302,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 3,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB24",
+            "score": 0.04664953,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 4,
+              "bm25": 6
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB13",
+            "score": 0.369783,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB17",
+            "score": 0.353004,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.348943,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F02-1",
+      "reference_cards": [
+        "KB03",
+        "KB27"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB03",
+            "score": 0.639875
+          },
+          {
+            "id": "KB25",
+            "score": 0.558274
+          },
+          {
+            "id": "KB14",
+            "score": 0.484246
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB25",
+            "score": 0.0486599,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 3
+            }
+          },
+          {
+            "id": "KB03",
+            "score": 0.04744785,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 7,
+              "expanded": 2,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB14",
+            "score": 0.04616113,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 6,
+              "expanded": 5,
+              "bm25": 4
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB30",
+            "score": 0.377396,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB10",
+            "score": 0.369083,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB13",
+            "score": 0.369068,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F02-2",
+      "reference_cards": [
+        "KB03",
+        "KB09",
+        "KB27"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB02",
+            "score": 0.637863
+          },
+          {
+            "id": "KB27",
+            "score": 0.541949
+          },
+          {
+            "id": "KB41",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB02",
+            "score": 0.04790709,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 5,
+              "expanded": 2,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB27",
+            "score": 0.04787506,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 3,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB11",
+            "score": 0.04666516,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 5,
+              "bm25": 6
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB38",
+            "score": 0.41995,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB13",
+            "score": 0.419028,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB17",
+            "score": 0.3877,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F02-3",
+      "reference_cards": [
+        "KB04",
+        "KB29",
+        "KB42"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.699569
+          },
+          {
+            "id": "KB29",
+            "score": 0.575754
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 1.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB29",
+            "score": 0.04762705,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 3,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB27",
+            "score": 0.0464948,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 2,
+              "bm25": 9
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB13",
+            "score": 0.364626,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB12",
+            "score": 0.361927,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB17",
+            "score": 0.348668,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F02-4",
+      "reference_cards": [
+        "KB05",
+        "KB20"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.677183
+          },
+          {
+            "id": "KB05",
+            "score": 0.632233
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB05",
+            "score": 0.0481715,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 5
+            }
+          },
+          {
+            "id": "KB24",
+            "score": 0.04788306,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 4,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB04",
+            "score": 0.04719183,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 7,
+              "expanded": 3,
+              "bm25": 1
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB08",
+            "score": 0.420942,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.42032,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB01",
+            "score": 0.364455,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F03-1",
+      "reference_cards": [
+        "KB25",
+        "KB27"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB25",
+            "score": 0.732747
+          },
+          {
+            "id": "KB02",
+            "score": 0.605237
+          },
+          {
+            "id": "KB08",
+            "score": 0.575305
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB25",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB02",
+            "score": 0.0483871,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB08",
+            "score": 0.04737103,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 4,
+              "bm25": 3
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB38",
+            "score": 0.380913,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB15",
+            "score": 0.355878,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB14",
+            "score": 0.334874,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F03-2",
+      "reference_cards": [
+        "KB25",
+        "KB27"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.585748
+          },
+          {
+            "id": "KB01",
+            "score": 0.584645
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB26",
+            "score": 0.04764344,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 4,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB08",
+            "score": 0.04744785,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 1,
+              "bm25": 7
+            }
+          },
+          {
+            "id": "KB04",
+            "score": 0.04512063,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 10,
+              "expanded": 2,
+              "bm25": 8
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB15",
+            "score": 0.391615,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB12",
+            "score": 0.380723,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB14",
+            "score": 0.367589,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F03-3",
+      "reference_cards": [
+        "KB04",
+        "KB21",
+        "KB29"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.694332
+          },
+          {
+            "id": "KB21",
+            "score": 0.621724
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB21",
+            "score": 0.04841189,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB04",
+            "score": 0.04839549,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 2,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB29",
+            "score": 0.04597978,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 7,
+              "expanded": 7,
+              "bm25": 2
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 1.0
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB08",
+            "score": 0.417518,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB40",
+            "score": 0.416156,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.368646,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F03-4",
+      "reference_cards": [
+        "KB21",
+        "KB33"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB33",
+            "score": 0.70132
+          },
+          {
+            "id": "KB21",
+            "score": 0.656341
+          },
+          {
+            "id": "KB05",
+            "score": 0.598036
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB33",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB21",
+            "score": 0.04788306,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 4,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB04",
+            "score": 0.04713865,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 5,
+              "expanded": 2,
+              "bm25": 4
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB40",
+            "score": 0.357963,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB01",
+            "score": 0.355812,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB08",
+            "score": 0.344553,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F04-1",
+      "reference_cards": [
+        "KB08",
+        "KB28"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB28",
+            "score": 0.735241
+          },
+          {
+            "id": "KB26",
+            "score": 0.582099
+          },
+          {
+            "id": "KB08",
+            "score": 0.580508
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB28",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB26",
+            "score": 0.04813108,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 3
+            }
+          },
+          {
+            "id": "KB08",
+            "score": 0.04787506,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 3,
+              "bm25": 2
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB13",
+            "score": 0.373041,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB43",
+            "score": 0.368842,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB36",
+            "score": 0.361625,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F04-2",
+      "reference_cards": [
+        "KB28",
+        "KB40"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB08",
+            "score": 0.606161
+          },
+          {
+            "id": "KB04",
+            "score": 0.533561
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB08",
+            "score": 0.04839549,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 3,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB32",
+            "score": 0.04718344,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 7,
+              "expanded": 2,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB28",
+            "score": 0.04688263,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 4,
+              "bm25": 5
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.3333333333333333,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB15",
+            "score": 0.351196,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB14",
+            "score": 0.344757,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.327954,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F04-3",
+      "reference_cards": [
+        "KB04",
+        "KB29",
+        "KB42"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.662288
+          },
+          {
+            "id": "KB08",
+            "score": 0.657326
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB08",
+            "score": 0.04891592,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB04",
+            "score": 0.04761905,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 3,
+              "bm25": 3
+            }
+          },
+          {
+            "id": "KB28",
+            "score": 0.04675082,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 9
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB22",
+            "score": 0.392186,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB11",
+            "score": 0.361936,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB12",
+            "score": 0.341271,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F04-4",
+      "reference_cards": [
+        "KB07",
+        "KB31"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB05",
+            "score": 0.655745
+          },
+          {
+            "id": "KB28",
+            "score": 0.607048
+          },
+          {
+            "id": "KB43",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB28",
+            "score": 0.0486599,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 3
+            }
+          },
+          {
+            "id": "KB14",
+            "score": 0.04764268,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 5
+            }
+          },
+          {
+            "id": "KB05",
+            "score": 0.04692957,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 6,
+              "expanded": 5,
+              "bm25": 1
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB01",
+            "score": 0.391152,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.379378,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB17",
+            "score": 0.354157,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F05-1",
+      "reference_cards": [
+        "KB23",
+        "KB43"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB23",
+            "score": 0.648837
+          },
+          {
+            "id": "KB43",
+            "score": 0.633217
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB23",
+            "score": 0.04865151,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 1,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB43",
+            "score": 0.04789146,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 3,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB24",
+            "score": 0.04480274,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 7,
+              "expanded": 9,
+              "bm25": 5
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB03",
+            "score": 0.388429,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB01",
+            "score": 0.376451,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB22",
+            "score": 0.371185,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F05-2",
+      "reference_cards": [
+        "KB23",
+        "KB28",
+        "KB43"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB05",
+            "score": 0.633541
+          },
+          {
+            "id": "KB14",
+            "score": 0.626861
+          },
+          {
+            "id": "KB43",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.3333333333333333,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB25",
+            "score": 0.0457739,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 17
+            }
+          },
+          {
+            "id": "KB04",
+            "score": 0.04541596,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 16
+            }
+          },
+          {
+            "id": "KB03",
+            "score": 0.04508737,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 15,
+              "expanded": 4,
+              "bm25": 2
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB34",
+            "score": 0.506659,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB43",
+            "score": 0.48859,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB39",
+            "score": 0.488025,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      }
+    },
+    {
+      "id": "V5F05-3",
+      "reference_cards": [
+        "KB04",
+        "KB29"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB29",
+            "score": 0.625879
+          },
+          {
+            "id": "KB04",
+            "score": 0.595771
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.04813108,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 3,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB41",
+            "score": 0.04789146,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 1,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB23",
+            "score": 0.04670793,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 8,
+              "expanded": 2,
+              "bm25": 3
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB14",
+            "score": 0.402541,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB15",
+            "score": 0.399494,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB25",
+            "score": 0.394465,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F05-4",
+      "reference_cards": [
+        "KB07",
+        "KB31"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB05",
+            "score": 0.702407
+          },
+          {
+            "id": "KB37",
+            "score": 0.604055
+          },
+          {
+            "id": "KB15",
+            "score": 0.523551
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB05",
+            "score": 0.04891592,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB37",
+            "score": 0.04865151,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 2,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB24",
+            "score": 0.04688263,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 3,
+              "bm25": 5
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB01",
+            "score": 0.415399,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB03",
+            "score": 0.411037,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB17",
+            "score": 0.402851,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F06-1",
+      "reference_cards": [
+        "KB11",
+        "KB18",
+        "KB41"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB41",
+            "score": 0.632621
+          },
+          {
+            "id": "KB18",
+            "score": 0.496086
+          },
+          {
+            "id": "KB43",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB41",
+            "score": 0.04765107,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 5,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB18",
+            "score": 0.04764344,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 1,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB11",
+            "score": 0.04719183,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 3,
+              "bm25": 7
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 1.0
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB35",
+            "score": 0.4209,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.403513,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB15",
+            "score": 0.397814,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F06-2",
+      "reference_cards": [
+        "KB11",
+        "KB13",
+        "KB41"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB41",
+            "score": 0.672108
+          },
+          {
+            "id": "KB31",
+            "score": 0.498948
+          },
+          {
+            "id": "KB43",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB41",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB43",
+            "score": 0.04616113,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 6,
+              "expanded": 5,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB30",
+            "score": 0.04554335,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 5,
+              "expanded": 3,
+              "bm25": 10
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB14",
+            "score": 0.348134,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB08",
+            "score": 0.330937,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.312797,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F06-3",
+      "reference_cards": [
+        "KB30",
+        "KB41",
+        "KB42"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB30",
+            "score": 0.746771
+          },
+          {
+            "id": "KB41",
+            "score": 0.624099
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 1.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB30",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB41",
+            "score": 0.04813108,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 3
+            }
+          },
+          {
+            "id": "KB18",
+            "score": 0.04737103,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 3,
+              "bm25": 4
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB26",
+            "score": 0.349914,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.297195,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB14",
+            "score": 0.287861,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F06-4",
+      "reference_cards": [
+        "KB06",
+        "KB18"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB41",
+            "score": 0.727896
+          },
+          {
+            "id": "KB18",
+            "score": 0.646457
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB41",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB18",
+            "score": 0.04813108,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 3,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB30",
+            "score": 0.04628776,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 2,
+              "bm25": 10
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB17",
+            "score": 0.354593,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.344943,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB14",
+            "score": 0.336471,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F07-1",
+      "reference_cards": [
+        "KB14",
+        "KB03"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB14",
+            "score": 0.691253
+          },
+          {
+            "id": "KB02",
+            "score": 0.469239
+          },
+          {
+            "id": "KB05",
+            "score": 0.468906
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB14",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB15",
+            "score": 0.04670793,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 3,
+              "bm25": 8
+            }
+          },
+          {
+            "id": "KB05",
+            "score": 0.04533538,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 2,
+              "bm25": 15
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB39",
+            "score": 0.387047,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB17",
+            "score": 0.368336,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.365036,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F07-2",
+      "reference_cards": [
+        "KB14",
+        "KB27"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB40",
+            "score": 0.618935
+          },
+          {
+            "id": "KB03",
+            "score": 0.593895
+          },
+          {
+            "id": "KB43",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB40",
+            "score": 0.04603771,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 6,
+              "expanded": 9,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB02",
+            "score": 0.04583854,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 4,
+              "bm25": 11
+            }
+          },
+          {
+            "id": "KB23",
+            "score": 0.04550237,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 9,
+              "expanded": 5,
+              "bm25": 4
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB34",
+            "score": 0.43438,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB20",
+            "score": 0.426823,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB12",
+            "score": 0.411912,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F07-3",
+      "reference_cards": [
+        "KB04",
+        "KB29"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.722215
+          },
+          {
+            "id": "KB14",
+            "score": 0.596037
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.04841189,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB05",
+            "score": 0.04839549,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 2,
+              "bm25": 3
+            }
+          },
+          {
+            "id": "KB14",
+            "score": 0.04813108,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 3,
+              "bm25": 2
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB17",
+            "score": 0.408375,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB01",
+            "score": 0.391926,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.377389,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F07-4",
+      "reference_cards": [
+        "KB05",
+        "KB15"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.710821
+          },
+          {
+            "id": "KB05",
+            "score": 0.685726
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.04814747,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 2,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB05",
+            "score": 0.04789146,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 1,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB15",
+            "score": 0.04713865,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 5,
+              "expanded": 4,
+              "bm25": 2
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB08",
+            "score": 0.420584,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB41",
+            "score": 0.419874,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB39",
+            "score": 0.410653,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F08-1",
+      "reference_cards": [
+        "KB19",
+        "KB35"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.59203
+          },
+          {
+            "id": "KB17",
+            "score": 0.569195
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB35",
+            "score": 0.0481715,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 5
+            }
+          },
+          {
+            "id": "KB17",
+            "score": 0.04813108,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 3
+            }
+          },
+          {
+            "id": "KB06",
+            "score": 0.04663462,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 5,
+              "bm25": 4
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB38",
+            "score": 0.44001,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB14",
+            "score": 0.419544,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.418579,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F08-2",
+      "reference_cards": [
+        "KB17",
+        "KB19"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB17",
+            "score": 0.788561
+          },
+          {
+            "id": "KB19",
+            "score": 0.569894
+          },
+          {
+            "id": "KB41",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB17",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB13",
+            "score": 0.04712302,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 3,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB19",
+            "score": 0.04654378,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 10
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB43",
+            "score": 0.461364,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.441836,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB38",
+            "score": 0.435864,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F08-3",
+      "reference_cards": [
+        "KB30",
+        "KB42"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB30",
+            "score": 0.706561
+          },
+          {
+            "id": "KB04",
+            "score": 0.652523
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB30",
+            "score": 0.04814747,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 1,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB06",
+            "score": 0.04737903,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 4,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB18",
+            "score": 0.04675921,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 3,
+              "bm25": 9
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB36",
+            "score": 0.455285,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB14",
+            "score": 0.446985,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.40753,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F08-4",
+      "reference_cards": [
+        "KB18",
+        "KB20"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB18",
+            "score": 0.691898
+          },
+          {
+            "id": "KB19",
+            "score": 0.652465
+          },
+          {
+            "id": "KB41",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB18",
+            "score": 0.04839549,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 3,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB19",
+            "score": 0.04839549,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 2,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB06",
+            "score": 0.04814747,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 1,
+              "bm25": 4
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB01",
+            "score": 0.483156,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB23",
+            "score": 0.478016,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.469015,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F09-1",
+      "reference_cards": [
+        "KB28",
+        "KB32",
+        "KB40"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB43",
+            "score": 0.607944
+          },
+          {
+            "id": "KB08",
+            "score": 0.596645
+          },
+          {
+            "id": "KB40",
+            "score": 0.560091
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.3333333333333333,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB40",
+            "score": 0.04727964,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 9
+            }
+          },
+          {
+            "id": "KB08",
+            "score": 0.04581157,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 9,
+              "expanded": 7,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB41",
+            "score": 0.04572376,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 7,
+              "expanded": 3,
+              "bm25": 7
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB19",
+            "score": 0.419386,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB22",
+            "score": 0.415084,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB12",
+            "score": 0.399415,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F09-2",
+      "reference_cards": [
+        "KB23",
+        "KB32",
+        "KB43"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB32",
+            "score": 0.710325
+          },
+          {
+            "id": "KB43",
+            "score": 0.627285
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB32",
+            "score": 0.04891592,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB09",
+            "score": 0.04722836,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 2,
+              "bm25": 8
+            }
+          },
+          {
+            "id": "KB43",
+            "score": 0.04713865,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 5,
+              "expanded": 4,
+              "bm25": 2
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB34",
+            "score": 0.452958,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.446946,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB01",
+            "score": 0.437901,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F09-3",
+      "reference_cards": [
+        "KB24",
+        "KB29",
+        "KB32"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB29",
+            "score": 0.644233
+          },
+          {
+            "id": "KB04",
+            "score": 0.618188
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.04788306,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB24",
+            "score": 0.04787506,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 3,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB29",
+            "score": 0.0465112,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 9,
+              "expanded": 4,
+              "bm25": 1
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB35",
+            "score": 0.414822,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB38",
+            "score": 0.398788,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.38342,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F09-4",
+      "reference_cards": [
+        "KB05",
+        "KB10",
+        "KB24"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB37",
+            "score": 0.688405
+          },
+          {
+            "id": "KB11",
+            "score": 0.636133
+          },
+          {
+            "id": "KB41",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB37",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB43",
+            "score": 0.04643902,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 5,
+              "bm25": 7
+            }
+          },
+          {
+            "id": "KB05",
+            "score": 0.04624679,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 2,
+              "bm25": 9
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.3333333333333333,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB08",
+            "score": 0.418175,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB03",
+            "score": 0.409693,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.40036,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F10-1",
+      "reference_cards": [
+        "KB13",
+        "KB33",
+        "KB38"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB36",
+            "score": 0.660284
+          },
+          {
+            "id": "KB38",
+            "score": 0.591424
+          },
+          {
+            "id": "KB41",
+            "score": 0.551547
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB38",
+            "score": 0.04762705,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 4,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB36",
+            "score": 0.04719183,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 7,
+              "expanded": 3,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB41",
+            "score": 0.04713865,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 5,
+              "expanded": 2,
+              "bm25": 4
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB02",
+            "score": 0.423682,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB15",
+            "score": 0.41594,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB12",
+            "score": 0.377115,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F10-2",
+      "reference_cards": [
+        "KB23",
+        "KB33",
+        "KB43"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB20",
+            "score": 0.654052
+          },
+          {
+            "id": "KB43",
+            "score": 0.591521
+          },
+          {
+            "id": "KB10",
+            "score": 0.5878
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB10",
+            "score": 0.0481715,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 5
+            }
+          },
+          {
+            "id": "KB20",
+            "score": 0.04741797,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 6,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB23",
+            "score": 0.04634257,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 11
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.3333333333333333,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB25",
+            "score": 0.418361,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.38461,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB01",
+            "score": 0.379521,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F10-3",
+      "reference_cards": [
+        "KB04",
+        "KB29"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.675241
+          },
+          {
+            "id": "KB29",
+            "score": 0.666651
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB04",
+            "score": 0.0486599,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 3
+            }
+          },
+          {
+            "id": "KB29",
+            "score": 0.0483871,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB33",
+            "score": 0.04789146,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 3,
+              "bm25": 1
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB14",
+            "score": 0.421375,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB17",
+            "score": 0.403123,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.376215,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F10-4",
+      "reference_cards": [
+        "KB21",
+        "KB33"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB05",
+            "score": 0.717375
+          },
+          {
+            "id": "KB33",
+            "score": 0.688579
+          },
+          {
+            "id": "KB43",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "mrr": 0.5,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB33",
+            "score": 0.04891592,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 2,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB05",
+            "score": 0.04865151,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 1,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB20",
+            "score": 0.04761905,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 3,
+              "bm25": 3
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB08",
+            "score": 0.362493,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB40",
+            "score": 0.348707,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB01",
+            "score": 0.312911,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F11-1",
+      "reference_cards": [
+        "KB01",
+        "KB26"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB26",
+            "score": 0.627853
+          },
+          {
+            "id": "KB09",
+            "score": 0.423929
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB26",
+            "score": 0.0481715,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 5,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB09",
+            "score": 0.04680819,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 2,
+              "bm25": 10
+            }
+          },
+          {
+            "id": "KB04",
+            "score": 0.04335801,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 12,
+              "expanded": 11,
+              "bm25": 5
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB15",
+            "score": 0.39553,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB38",
+            "score": 0.381321,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB12",
+            "score": 0.361297,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F11-2",
+      "reference_cards": [
+        "KB02",
+        "KB03",
+        "KB27"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB36",
+            "score": 0.539048
+          },
+          {
+            "id": "KB26",
+            "score": 0.535472
+          },
+          {
+            "id": "KB28",
+            "score": 0.52584
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB02",
+            "score": 0.04598643,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 6,
+              "expanded": 8,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB16",
+            "score": 0.04493595,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 5,
+              "bm25": 16
+            }
+          },
+          {
+            "id": "KB07",
+            "score": 0.04455663,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 8,
+              "expanded": 7,
+              "bm25": 7
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB34",
+            "score": 0.426815,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.421402,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB38",
+            "score": 0.386943,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F11-3",
+      "reference_cards": [
+        "KB04",
+        "KB29",
+        "KB42"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB42",
+            "score": 0.648881
+          },
+          {
+            "id": "KB04",
+            "score": 0.440286
+          },
+          {
+            "id": "KB05",
+            "score": 0.428758
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB42",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB04",
+            "score": 0.04738666,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 2,
+              "bm25": 5
+            }
+          },
+          {
+            "id": "KB05",
+            "score": 0.04664953,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 3,
+              "bm25": 6
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB14",
+            "score": 0.374077,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.3633,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.332187,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F11-4",
+      "reference_cards": [
+        "KB06",
+        "KB18"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB42",
+            "score": 0.632512
+          },
+          {
+            "id": "KB41",
+            "score": 0.613792
+          },
+          {
+            "id": "KB19",
+            "score": 0.561971
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB42",
+            "score": 0.04787506,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 3,
+              "expanded": 2,
+              "bm25": 3
+            }
+          },
+          {
+            "id": "KB09",
+            "score": 0.04641136,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 1,
+              "bm25": 12
+            }
+          },
+          {
+            "id": "KB41",
+            "score": 0.04570068,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 13,
+              "expanded": 3,
+              "bm25": 2
+            }
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB34",
+            "score": 0.375014,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.368458,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB15",
+            "score": 0.357741,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F12-1",
+      "reference_cards": [
+        "KB34"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB34",
+            "score": 0.71869
+          },
+          {
+            "id": "KB28",
+            "score": 0.627372
+          },
+          {
+            "id": "KB27",
+            "score": 0.627324
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB34",
+            "score": 0.04891592,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB28",
+            "score": 0.04767399,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 2,
+              "bm25": 6
+            }
+          },
+          {
+            "id": "KB27",
+            "score": 0.04666516,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 5,
+              "expanded": 6,
+              "bm25": 2
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB23",
+            "score": 0.441108,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.416797,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB43",
+            "score": 0.410187,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F12-2",
+      "reference_cards": [
+        "KB25",
+        "KB34"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB25",
+            "score": 0.70232
+          },
+          {
+            "id": "KB09",
+            "score": 0.647918
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB25",
+            "score": 0.04839549,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 3,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB32",
+            "score": 0.04689826,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 5,
+              "expanded": 5,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB09",
+            "score": 0.04624679,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 2,
+              "bm25": 9
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB01",
+            "score": 0.499203,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB19",
+            "score": 0.499144,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.489839,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F12-3",
+      "reference_cards": [
+        "KB24",
+        "KB29",
+        "KB42"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB29",
+            "score": 0.702158
+          },
+          {
+            "id": "KB41",
+            "score": 0.53696
+          },
+          {
+            "id": "KB42",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.6666666666666666
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB29",
+            "score": 0.04918033,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 1
+            }
+          },
+          {
+            "id": "KB04",
+            "score": 0.046875,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 4,
+              "expanded": 4,
+              "bm25": 4
+            }
+          },
+          {
+            "id": "KB41",
+            "score": 0.04595669,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 13
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB14",
+            "score": 0.392359,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB25",
+            "score": 0.345987,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.297471,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    },
+    {
+      "id": "V5F12-4",
+      "reference_cards": [
+        "KB05",
+        "KB10",
+        "KB20"
+      ],
+      "boundary": {
+        "retrieved": [
+          {
+            "id": "KB05",
+            "score": 0.748885
+          },
+          {
+            "id": "KB37",
+            "score": 0.629173
+          },
+          {
+            "id": "KB43",
+            "score": null,
+            "selection": "boundary_pair"
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 0.3333333333333333
+      },
+      "fusion": {
+        "retrieved": [
+          {
+            "id": "KB05",
+            "score": 0.04891592,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 1,
+              "expanded": 1,
+              "bm25": 2
+            }
+          },
+          {
+            "id": "KB10",
+            "score": 0.04718344,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 2,
+              "expanded": 2,
+              "bm25": 7
+            }
+          },
+          {
+            "id": "KB20",
+            "score": 0.04573041,
+            "score_type": "rrf_k60",
+            "component_ranks": {
+              "dense": 8,
+              "expanded": 6,
+              "bm25": 3
+            }
+          }
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "mrr": 1.0,
+        "precision_at3": 1.0
+      },
+      "low_relevance": {
+        "retrieved": [
+          {
+            "id": "KB38",
+            "score": 0.413471,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB02",
+            "score": 0.410384,
+            "selection": "lowest_dense_control"
+          },
+          {
+            "id": "KB01",
+            "score": 0.38936,
+            "selection": "lowest_dense_control"
+          }
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "mrr": 0,
+        "precision_at3": 0.0
+      }
+    }
+  ],
+  "caveat": "参考依据由项目作者预设，非穷尽列表；该指标不是语义蕴含或危害识别率"
+}

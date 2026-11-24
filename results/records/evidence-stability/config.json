@@ -1,0 +1,40 @@
+{
+  "manifest": {
+    "files": {
+      "data\\v51\\policy.json": "2330509cd94152698fd4d771424944b35b3aea901684a0f5384a4558cfb005e5",
+      "data\\v51\\challenge.jsonl": "a7d567926f6f9ddf4ce9b901b9c1910cd3474a871b5424ac0bdd4cd756b4ab23",
+      "data\\v51\\regression.jsonl": "5aa73e5bd6528801474baf48afc6a8242c82d9ff95cbdac7e71cf8cb011bc603",
+      "data\\v51\\repeat.jsonl": "f334561858718e95080e708f8a8bf204869458ba43548607aec8c4fc242b47f0",
+      "data\\v51\\approved_payloads.json": "f990a253c68a75fc7fe9dab0ebbe978787dd960ca62cfcb8b1c26e129cbac0a7",
+      "experiment_v5.py": "27490133a68484a51a45cd872613629c7c6b9cf1cafc06aba0eedab851173747",
+      "retrieval_v5.py": "58be4b2b08bfe282aeafe2f39ded2c2b4b9d92cdfab0d85d700d0540508c9175",
+      "cases_v5.py": "7417b70f83cfbd86d87a7fcf2c8935dfef91e79d33687c2b987251a314833e4e",
+      "experiment_v4.py": "488503ffce8469366064258a5ecfd9d61585ebe85fccf3da60a8890d88819f2a",
+      "guard.py": "75ac6e7ac931d0f8cbcb7671b91817c73a47f4dd516ea606e78acb4e41b2740e",
+      "guard_v2.py": "84977f54619b786f3a3a324c23770956ff617cada66d7cfcebc5e8d5167f53aa",
+      "index_v2.py": "5977383f1e3b9ae4d8c49b691105e28f8923c4a4e11c64e97a86b4cc0b6c7314",
+      "experiment_v51.py": "76248248f4df9f80669faced8432fa502f716a29e82fc2cd5bc60f59839c107a"
+    },
+    "embedder_sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+    "endpoint": "https://cn-beijing.maas.qianwenaiapi.com/compatible-mode/v1/chat/completions",
+    "model": "deepseek-v4.1-flash",
+    "methods": [
+      "none",
+      "boundary",
+      "fusion",
+      "low_relevance"
+    ],
+    "top_k": 3,
+    "rrf_k": 60,
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "temperature": 0,
+    "max_tokens": 220,
+    "measurement": "action_separate_from_citation_v51"
+  },
+  "split": "repeat",
+  "methods": [
+    "none",
+    "fusion"
+  ]
+}

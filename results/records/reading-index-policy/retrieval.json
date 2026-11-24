@@ -1,0 +1,279 @@
+{
+  "total": 12,
+  "summary": {
+    "dense": {
+      "hit_1": 10,
+      "hit_3": 11
+    },
+    "hybrid": {
+      "hit_1": 11,
+      "hit_3": 12
+    }
+  },
+  "rows": [
+    {
+      "id": "D01",
+      "rule_id": "BIO-01",
+      "dense": {
+        "cards": [
+          "KB01",
+          "KB08",
+          "KB04"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB01",
+          "KB08",
+          "KB02"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D02",
+      "rule_id": "BIO-01",
+      "dense": {
+        "cards": [
+          "KB08",
+          "KB02",
+          "KB01"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB08",
+          "KB02",
+          "KB01"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D03",
+      "rule_id": "BIO-01",
+      "dense": {
+        "cards": [
+          "KB03",
+          "KB07",
+          "KB08"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB03",
+          "KB02",
+          "KB08"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D04",
+      "rule_id": "BIO-01",
+      "dense": {
+        "cards": [
+          "KB11",
+          "KB06",
+          "KB05"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB11",
+          "KB06",
+          "KB05"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D05",
+      "rule_id": "BIO-01",
+      "dense": {
+        "cards": [
+          "KB01",
+          "KB08",
+          "KB04"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB08",
+          "KB01",
+          "KB04"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D06",
+      "rule_id": "BIO-01",
+      "dense": {
+        "cards": [
+          "KB03",
+          "KB06",
+          "KB08"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB03",
+          "KB04",
+          "KB06"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D07",
+      "rule_id": "BIO-03",
+      "dense": {
+        "cards": [
+          "KB05",
+          "KB06",
+          "KB11"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB05",
+          "KB06",
+          "KB04"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D08",
+      "rule_id": "BIO-04",
+      "dense": {
+        "cards": [
+          "KB11",
+          "KB06",
+          "KB10"
+        ],
+        "hit_1": false,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB06",
+          "KB11",
+          "KB10"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D09",
+      "rule_id": "BIO-05",
+      "dense": {
+        "cards": [
+          "KB05",
+          "KB08",
+          "KB02"
+        ],
+        "hit_1": false,
+        "hit_3": false
+      },
+      "hybrid": {
+        "cards": [
+          "KB05",
+          "KB07",
+          "KB08"
+        ],
+        "hit_1": false,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D10",
+      "rule_id": "BIO-03",
+      "dense": {
+        "cards": [
+          "KB05",
+          "KB06",
+          "KB07"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB05",
+          "KB10",
+          "KB06"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D11",
+      "rule_id": "BIO-02",
+      "dense": {
+        "cards": [
+          "KB04",
+          "KB09",
+          "KB06"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB04",
+          "KB09",
+          "KB06"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    },
+    {
+      "id": "D12",
+      "rule_id": "BIO-02",
+      "dense": {
+        "cards": [
+          "KB04",
+          "KB10",
+          "KB06"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      },
+      "hybrid": {
+        "cards": [
+          "KB04",
+          "KB11",
+          "KB10"
+        ],
+        "hit_1": true,
+        "hit_3": true
+      }
+    }
+  ]
+}

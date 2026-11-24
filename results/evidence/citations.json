@@ -1,0 +1,41 @@
+{
+  "diagnostics": {
+    "none": {
+      "n": 48,
+      "valid_citation_schema": 48,
+      "cited": 0,
+      "citation_reference_agreement": 0,
+      "all_cited_reference_agreement": 0,
+      "p95_ms": 1209
+    },
+    "boundary": {
+      "n": 48,
+      "valid_citation_schema": 48,
+      "cited": 43,
+      "citation_reference_agreement": 35,
+      "all_cited_reference_agreement": 25,
+      "p95_ms": 1380
+    },
+    "fusion": {
+      "n": 48,
+      "valid_citation_schema": 48,
+      "cited": 47,
+      "citation_reference_agreement": 40,
+      "all_cited_reference_agreement": 32,
+      "p95_ms": 1267
+    },
+    "low_relevance": {
+      "n": 48,
+      "valid_citation_schema": 48,
+      "cited": 2,
+      "citation_reference_agreement": 1,
+      "all_cited_reference_agreement": 1,
+      "p95_ms": 1264
+    }
+  },
+  "repeat_flips": {
+    "none": [],
+    "fusion": []
+  },
+  "recorded_calls": 288
+}

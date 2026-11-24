@@ -1,0 +1,15 @@
+{
+  "split": "dev",
+  "methods": [
+    "none",
+    "dense",
+    "hybrid"
+  ],
+  "model": "deepseek-v4.1-flash",
+  "temperature": 0,
+  "top_k": 3,
+  "policy_sha256": "45eea9d040a5d5656c7a11e45e4604e05b9893126fa75e058d075e268095d7ea",
+  "dataset_sha256": "b236b287c4a9d1cff1a16bd4150c556ce07ab03145ca0dc5220730e0fe0211a4",
+  "embedder_sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+  "code_sha256": "75ac6e7ac931d0f8cbcb7671b91817c73a47f4dd516ea606e78acb4e41b2740e"
+}

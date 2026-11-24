@@ -1,0 +1,162 @@
+{
+  "comparisons": [
+    {
+      "dataset": "reading-calibration",
+      "historical_run": "reading-calibration-policy",
+      "method": "hybrid",
+      "policy_corrects_vs_unprompted": [],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "reading-calibration",
+      "historical_run": "reading-calibration-policy",
+      "method": "none",
+      "policy_corrects_vs_unprompted": [],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "reading-holdout",
+      "historical_run": "reading-holdout",
+      "method": "hybrid",
+      "policy_corrects_vs_unprompted": [
+        "H02",
+        "H05"
+      ],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "reading-holdout",
+      "historical_run": "reading-holdout",
+      "method": "none",
+      "policy_corrects_vs_unprompted": [
+        "H02",
+        "H05"
+      ],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "coverage-calibration",
+      "historical_run": "coverage-calibration",
+      "method": "hybrid",
+      "policy_corrects_vs_unprompted": [
+        "V2F07-2"
+      ],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "coverage-calibration",
+      "historical_run": "coverage-calibration",
+      "method": "none",
+      "policy_corrects_vs_unprompted": [],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "coverage-holdout",
+      "historical_run": "coverage-holdout",
+      "method": "hybrid",
+      "policy_corrects_vs_unprompted": [
+        "V2F33-2",
+        "V2F37-3"
+      ],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "coverage-holdout",
+      "historical_run": "coverage-holdout",
+      "method": "none",
+      "policy_corrects_vs_unprompted": [
+        "V2F37-3"
+      ],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "context-challenge",
+      "historical_run": "context-challenge",
+      "method": "hybrid",
+      "policy_corrects_vs_unprompted": [
+        "V3F13-1"
+      ],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "context-challenge",
+      "historical_run": "context-challenge",
+      "method": "none",
+      "policy_corrects_vs_unprompted": [
+        "V3F13-1"
+      ],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "boundary-challenge",
+      "historical_run": "boundary-standard-policy",
+      "method": "hybrid",
+      "policy_corrects_vs_unprompted": [
+        "V4F02-4"
+      ],
+      "policy_regresses_vs_unprompted": [
+        "V4F06-1",
+        "V4F06-3"
+      ]
+    },
+    {
+      "dataset": "boundary-challenge",
+      "historical_run": "boundary-standard-policy",
+      "method": "none",
+      "policy_corrects_vs_unprompted": [],
+      "policy_regresses_vs_unprompted": [
+        "V4F01-4",
+        "V4F06-1"
+      ]
+    },
+    {
+      "dataset": "boundary-challenge",
+      "historical_run": "boundary-task-policy",
+      "method": "hybrid",
+      "policy_corrects_vs_unprompted": [
+        "V4F02-4"
+      ],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "boundary-challenge",
+      "historical_run": "boundary-task-policy",
+      "method": "none",
+      "policy_corrects_vs_unprompted": [
+        "V4F02-4"
+      ],
+      "policy_regresses_vs_unprompted": [
+        "V4F06-1"
+      ]
+    },
+    {
+      "dataset": "evidence-comparison",
+      "historical_run": "evidence-comparison",
+      "method": "boundary",
+      "policy_corrects_vs_unprompted": [],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "evidence-comparison",
+      "historical_run": "evidence-comparison",
+      "method": "fusion",
+      "policy_corrects_vs_unprompted": [],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "evidence-comparison",
+      "historical_run": "evidence-comparison",
+      "method": "low_relevance",
+      "policy_corrects_vs_unprompted": [],
+      "policy_regresses_vs_unprompted": []
+    },
+    {
+      "dataset": "evidence-comparison",
+      "historical_run": "evidence-comparison",
+      "method": "none",
+      "policy_corrects_vs_unprompted": [],
+      "policy_regresses_vs_unprompted": []
+    }
+  ],
+  "caveat": "Same requests but retrospective calls on different dates; not a randomized causal estimate"
+}

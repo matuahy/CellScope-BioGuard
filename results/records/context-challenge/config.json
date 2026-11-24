@@ -1,0 +1,22 @@
+{
+  "split": "challenge",
+  "methods": [
+    "none",
+    "hybrid"
+  ],
+  "detector": "unchanged-v2.1",
+  "model": "deepseek-v4.1-flash",
+  "endpoint": "https://cn-beijing.maas.qianwenaiapi.com/compatible-mode/v1/chat/completions",
+  "temperature": 0,
+  "top_k": 3,
+  "files": {
+    "data\\v3\\policy.json": "ace2298ea4216e75842c7ae2fea675461f1ea0268b4406060bca85b2987529b9",
+    "data\\v3\\challenge.jsonl": "dcd4c9baed0f5d6c33118c5f8504caf998c36d67db36f45f3f9743d2f50a543f",
+    "data\\v3\\approved_payloads.json": "f22ac7c15554d4627ac57ca27e232da311c30e517437e89bae2e73ae6de05291",
+    "guard.py": "75ac6e7ac931d0f8cbcb7671b91817c73a47f4dd516ea606e78acb4e41b2740e",
+    "guard_v2.py": "84977f54619b786f3a3a324c23770956ff617cada66d7cfcebc5e8d5167f53aa",
+    "index_v2.py": "5977383f1e3b9ae4d8c49b691105e28f8923c4a4e11c64e97a86b4cc0b6c7314",
+    "guard_v3.py": "e72fefebd017859a5a15215a59679be27426fa45ea33098709d0799ed8d02e15"
+  },
+  "embedder_sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026"
+}

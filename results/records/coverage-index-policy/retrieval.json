@@ -1,0 +1,943 @@
+{
+  "total": 30,
+  "summary": {
+    "dense": {
+      "hit_1": 0.5666666666666667,
+      "hit_3": 0.8333333333333334,
+      "reciprocal_rank": 0.6722222222222222,
+      "reference_recall": 0.5333333333333333
+    },
+    "hybrid": {
+      "hit_1": 0.7,
+      "hit_3": 0.9666666666666667,
+      "reciprocal_rank": 0.8277777777777777,
+      "reference_recall": 0.638888888888889
+    }
+  },
+  "rows": [
+    {
+      "id": "V2F01-1",
+      "family": "v2-localization",
+      "reference_cards": [
+        "KB01",
+        "KB26"
+      ],
+      "dense": {
+        "cards": [
+          "KB01",
+          "KB26",
+          "KB40"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB01",
+          "KB26",
+          "KB40"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      }
+    },
+    {
+      "id": "V2F01-2",
+      "family": "v2-localization",
+      "reference_cards": [
+        "KB26",
+        "KB40"
+      ],
+      "dense": {
+        "cards": [
+          "KB01",
+          "KB40",
+          "KB26"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.5,
+        "reference_recall": 1.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB01",
+          "KB26",
+          "KB40"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.5,
+        "reference_recall": 1.0
+      }
+    },
+    {
+      "id": "V2F01-3",
+      "family": "v2-localization",
+      "reference_cards": [
+        "KB01",
+        "KB26",
+        "KB40"
+      ],
+      "dense": {
+        "cards": [
+          "KB02",
+          "KB24",
+          "KB40"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.3333333333333333,
+        "reference_recall": 0.3333333333333333
+      },
+      "hybrid": {
+        "cards": [
+          "KB40",
+          "KB07",
+          "KB33"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.3333333333333333
+      }
+    },
+    {
+      "id": "V2F02-1",
+      "family": "v2-batch-quality",
+      "reference_cards": [
+        "KB25",
+        "KB27"
+      ],
+      "dense": {
+        "cards": [
+          "KB25",
+          "KB08",
+          "KB02"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB02",
+          "KB25",
+          "KB08"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.5,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F02-2",
+      "family": "v2-batch-quality",
+      "reference_cards": [
+        "KB25",
+        "KB39"
+      ],
+      "dense": {
+        "cards": [
+          "KB28",
+          "KB01",
+          "KB25"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.3333333333333333,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB28",
+          "KB25",
+          "KB40"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.5,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F02-3",
+      "family": "v2-batch-quality",
+      "reference_cards": [
+        "KB25",
+        "KB27"
+      ],
+      "dense": {
+        "cards": [
+          "KB25",
+          "KB17",
+          "KB28"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB25",
+          "KB08",
+          "KB03"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F03-1",
+      "family": "v2-compliance-reading",
+      "reference_cards": [
+        "KB11",
+        "KB36"
+      ],
+      "dense": {
+        "cards": [
+          "KB11",
+          "KB24",
+          "KB22"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB11",
+          "KB13",
+          "KB36"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      }
+    },
+    {
+      "id": "V2F03-2",
+      "family": "v2-compliance-reading",
+      "reference_cards": [
+        "KB18",
+        "KB11"
+      ],
+      "dense": {
+        "cards": [
+          "KB30",
+          "KB10",
+          "KB18"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.3333333333333333,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB18",
+          "KB30",
+          "KB29"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F03-3",
+      "family": "v2-compliance-reading",
+      "reference_cards": [
+        "KB18",
+        "KB06"
+      ],
+      "dense": {
+        "cards": [
+          "KB18",
+          "KB11",
+          "KB30"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB18",
+          "KB11",
+          "KB30"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F04-1",
+      "family": "v2-public-source",
+      "reference_cards": [
+        "KB23",
+        "KB36"
+      ],
+      "dense": {
+        "cards": [
+          "KB09",
+          "KB07",
+          "KB16"
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "reciprocal_rank": 0,
+        "reference_recall": 0.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB05",
+          "KB23",
+          "KB29"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.5,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F04-2",
+      "family": "v2-public-source",
+      "reference_cards": [
+        "KB20",
+        "KB10"
+      ],
+      "dense": {
+        "cards": [
+          "KB20",
+          "KB05",
+          "KB14"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB20",
+          "KB05",
+          "KB37"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F04-3",
+      "family": "v2-public-source",
+      "reference_cards": [
+        "KB24",
+        "KB37"
+      ],
+      "dense": {
+        "cards": [
+          "KB05",
+          "KB21",
+          "KB31"
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "reciprocal_rank": 0,
+        "reference_recall": 0.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB05",
+          "KB24",
+          "KB20"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.5,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F05-1",
+      "family": "v2-unclear-improvement",
+      "reference_cards": [
+        "KB29",
+        "KB04"
+      ],
+      "dense": {
+        "cards": [
+          "KB04",
+          "KB03",
+          "KB27"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB04",
+          "KB29",
+          "KB03"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      }
+    },
+    {
+      "id": "V2F05-2",
+      "family": "v2-unclear-improvement",
+      "reference_cards": [
+        "KB25",
+        "KB27",
+        "KB03"
+      ],
+      "dense": {
+        "cards": [
+          "KB03",
+          "KB25",
+          "KB01"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.6666666666666666
+      },
+      "hybrid": {
+        "cards": [
+          "KB03",
+          "KB04",
+          "KB01"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.3333333333333333
+      }
+    },
+    {
+      "id": "V2F05-3",
+      "family": "v2-unclear-improvement",
+      "reference_cards": [
+        "KB29",
+        "KB09"
+      ],
+      "dense": {
+        "cards": [
+          "KB04",
+          "KB05",
+          "KB30"
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "reciprocal_rank": 0,
+        "reference_recall": 0.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB04",
+          "KB29",
+          "KB05"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.5,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F06-1",
+      "family": "v2-screening-performance",
+      "reference_cards": [
+        "KB19",
+        "KB17"
+      ],
+      "dense": {
+        "cards": [
+          "KB19",
+          "KB16",
+          "KB17"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB19",
+          "KB17",
+          "KB02"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      }
+    },
+    {
+      "id": "V2F06-2",
+      "family": "v2-screening-performance",
+      "reference_cards": [
+        "KB18",
+        "KB06"
+      ],
+      "dense": {
+        "cards": [
+          "KB06",
+          "KB18",
+          "KB04"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB18",
+          "KB06",
+          "KB30"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      }
+    },
+    {
+      "id": "V2F06-3",
+      "family": "v2-screening-performance",
+      "reference_cards": [
+        "KB30",
+        "KB29"
+      ],
+      "dense": {
+        "cards": [
+          "KB30",
+          "KB20",
+          "KB18"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB30",
+          "KB18",
+          "KB05"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F07-1",
+      "family": "v2-mixed-output",
+      "reference_cards": [
+        "KB31",
+        "KB07"
+      ],
+      "dense": {
+        "cards": [
+          "KB28",
+          "KB20",
+          "KB05"
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "reciprocal_rank": 0,
+        "reference_recall": 0.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB24",
+          "KB20",
+          "KB05"
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "reciprocal_rank": 0,
+        "reference_recall": 0.0
+      }
+    },
+    {
+      "id": "V2F07-2",
+      "family": "v2-mixed-output",
+      "reference_cards": [
+        "KB23",
+        "KB31"
+      ],
+      "dense": {
+        "cards": [
+          "KB33",
+          "KB23",
+          "KB31"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.5,
+        "reference_recall": 1.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB31",
+          "KB23",
+          "KB05"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      }
+    },
+    {
+      "id": "V2F07-3",
+      "family": "v2-mixed-output",
+      "reference_cards": [
+        "KB31",
+        "KB07"
+      ],
+      "dense": {
+        "cards": [
+          "KB31",
+          "KB20",
+          "KB05"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB31",
+          "KB20",
+          "KB05"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F08-1",
+      "family": "v2-ai-design-policy",
+      "reference_cards": [
+        "KB22",
+        "KB35"
+      ],
+      "dense": {
+        "cards": [
+          "KB22",
+          "KB16",
+          "KB13"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB22",
+          "KB13",
+          "KB09"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F08-2",
+      "family": "v2-ai-design-policy",
+      "reference_cards": [
+        "KB17",
+        "KB22"
+      ],
+      "dense": {
+        "cards": [
+          "KB17",
+          "KB19",
+          "KB08"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB17",
+          "KB19",
+          "KB08"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F08-3",
+      "family": "v2-ai-design-policy",
+      "reference_cards": [
+        "KB21",
+        "KB05"
+      ],
+      "dense": {
+        "cards": [
+          "KB21",
+          "KB04",
+          "KB05"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB21",
+          "KB04",
+          "KB05"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      }
+    },
+    {
+      "id": "V2F09-1",
+      "family": "v2-prompt-authority",
+      "reference_cards": [
+        "KB32",
+        "KB25"
+      ],
+      "dense": {
+        "cards": [
+          "KB02",
+          "KB01",
+          "KB32"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.3333333333333333,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB32",
+          "KB02",
+          "KB25"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      }
+    },
+    {
+      "id": "V2F09-2",
+      "family": "v2-prompt-authority",
+      "reference_cards": [
+        "KB32",
+        "KB26"
+      ],
+      "dense": {
+        "cards": [
+          "KB26",
+          "KB21",
+          "KB09"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB26",
+          "KB27",
+          "KB04"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F09-3",
+      "family": "v2-prompt-authority",
+      "reference_cards": [
+        "KB32",
+        "KB37"
+      ],
+      "dense": {
+        "cards": [
+          "KB05",
+          "KB21",
+          "KB37"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.3333333333333333,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB37",
+          "KB05",
+          "KB11"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F10-1",
+      "family": "v2-statistics-evidence",
+      "reference_cards": [
+        "KB03",
+        "KB27"
+      ],
+      "dense": {
+        "cards": [
+          "KB03",
+          "KB07",
+          "KB28"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 0.5
+      },
+      "hybrid": {
+        "cards": [
+          "KB03",
+          "KB07",
+          "KB27"
+        ],
+        "hit_1": true,
+        "hit_3": true,
+        "reciprocal_rank": 1.0,
+        "reference_recall": 1.0
+      }
+    },
+    {
+      "id": "V2F10-2",
+      "family": "v2-statistics-evidence",
+      "reference_cards": [
+        "KB27",
+        "KB09"
+      ],
+      "dense": {
+        "cards": [
+          "KB01",
+          "KB03",
+          "KB32"
+        ],
+        "hit_1": false,
+        "hit_3": false,
+        "reciprocal_rank": 0,
+        "reference_recall": 0.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB39",
+          "KB09",
+          "KB03"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.5,
+        "reference_recall": 0.5
+      }
+    },
+    {
+      "id": "V2F10-3",
+      "family": "v2-statistics-evidence",
+      "reference_cards": [
+        "KB27",
+        "KB40"
+      ],
+      "dense": {
+        "cards": [
+          "KB09",
+          "KB40",
+          "KB27"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.5,
+        "reference_recall": 1.0
+      },
+      "hybrid": {
+        "cards": [
+          "KB09",
+          "KB35",
+          "KB40"
+        ],
+        "hit_1": false,
+        "hit_3": true,
+        "reciprocal_rank": 0.3333333333333333,
+        "reference_recall": 0.5
+      }
+    }
+  ],
+  "manifest": {
+    "split": "dev",
+    "methods": [
+      "dense",
+      "hybrid"
+    ],
+    "model": "deepseek-v4.1-flash",
+    "endpoint": "https://cn-beijing.maas.qianwenaiapi.com/compatible-mode/v1/chat/completions",
+    "top_k": 3,
+    "temperature": 0,
+    "version": "2.1",
+    "files": {
+      "data\\v2\\policy.json": "ace2298ea4216e75842c7ae2fea675461f1ea0268b4406060bca85b2987529b9",
+      "data\\v2\\dev.jsonl": "4ecc4081781380659f9c41fffb9e2f99f61095ae6a33fb906962b881b060c84c",
+      "data\\v2\\approved_payloads.json": "ad4618d147ed26c3cc3ee1273827b3675e2a04e618c43e54ef5a372791a2d163",
+      "guard_v2.py": "84977f54619b786f3a3a324c23770956ff617cada66d7cfcebc5e8d5167f53aa",
+      "guard.py": "75ac6e7ac931d0f8cbcb7671b91817c73a47f4dd516ea606e78acb4e41b2740e",
+      "index_v2.py": "5977383f1e3b9ae4d8c49b691105e28f8923c4a4e11c64e97a86b4cc0b6c7314"
+    },
+    "embedder_sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026"
+  },
+  "interpretation": "匹配作者列出的支持卡片，不是危险分类正确率；参考卡片需外部复核"
+}

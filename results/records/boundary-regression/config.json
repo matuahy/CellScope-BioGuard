@@ -1,0 +1,22 @@
+{
+  "mode": "opt",
+  "split": "regression",
+  "methods": [
+    "none",
+    "hybrid"
+  ],
+  "model": "deepseek-v4.1-flash",
+  "endpoint": "https://cn-beijing.maas.qianwenaiapi.com/compatible-mode/v1/chat/completions",
+  "top_k": 3,
+  "temperature": 0,
+  "files": {
+    "data\\v4\\opt_policy.json": "2330509cd94152698fd4d771424944b35b3aea901684a0f5384a4558cfb005e5",
+    "data\\v4\\regression.jsonl": "5aa73e5bd6528801474baf48afc6a8242c82d9ff95cbdac7e71cf8cb011bc603",
+    "data\\v4\\approved_payloads.json": "2ebc7c11f6a30a76307ddd3b877e77ee36bf8137ad24238df42b7d60453e9973",
+    "experiment_v4.py": "488503ffce8469366064258a5ecfd9d61585ebe85fccf3da60a8890d88819f2a",
+    "guard.py": "75ac6e7ac931d0f8cbcb7671b91817c73a47f4dd516ea606e78acb4e41b2740e",
+    "guard_v2.py": "84977f54619b786f3a3a324c23770956ff617cada66d7cfcebc5e8d5167f53aa",
+    "index_v2.py": "5977383f1e3b9ae4d8c49b691105e28f8923c4a4e11c64e97a86b4cc0b6c7314"
+  },
+  "embedder": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026"
+}
